@@ -29,7 +29,7 @@ velocity_plugins=(
 
 # Spigot
 for server_dir in "$SCRIPT_DIR"/1_*/; do
-  rm -r "$server_dir"plugins
+  rm -rf "$server_dir"plugins
   mkdir -p "$server_dir"plugins
   for plugin in "${spigot_plugins[@]}"; do
     ln -sf "$SCRIPT_DIR"/../.plugins/"$plugin".jar "$server_dir"plugins/"$plugin".jar
@@ -38,7 +38,7 @@ done
 
 # Bungee
 server_dir="$SCRIPT_DIR/bungee/"
-rm -r "$server_dir"plugins
+rm -rf "$server_dir"plugins
 mkdir -p "$server_dir"plugins
 for plugin in "${bungee_plugins[@]}"; do
   ln -sf "$SCRIPT_DIR"/../.plugins/"$plugin".jar "$server_dir"plugins/"$plugin".jar
@@ -46,7 +46,7 @@ done
 
 # Velocity
 server_dir="$SCRIPT_DIR/velocity/"
-rm -r "$server_dir"plugins
+rm -rf "$server_dir"plugins
 mkdir -p "$server_dir"plugins
 for plugin in "${velocity_plugins[@]}"; do
   ln -sf "$SCRIPT_DIR"/../.plugins/"$plugin".jar "$server_dir"plugins/"$plugin".jar
