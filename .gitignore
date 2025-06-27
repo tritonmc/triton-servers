@@ -1,0 +1,8 @@
+# Final Triton release JARs that are uploaded into the marketplaces
+builds/
+
+# Generate with update-plugins.sh
+.plugins/
+
+# Where server directories are stored
+instances/

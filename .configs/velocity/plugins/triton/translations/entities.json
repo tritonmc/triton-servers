@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_GB": "&9I'm a &7pig&9!",
+        "pt_PT": "&9Sou um &7porco&9!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363191,
+        "id": "80a7d74c-0f25-4dd7-b0b6-b30c2708ed5c",
+        "dateUpdated": 1568373856358
+      },
+      "key": "npc.2"
+    },
+    {
+      "languages": {
+        "en_GB": "&bHi there!",
+        "pt_PT": "&bOlá! :D"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363191,
+        "id": "32b73d6f-6107-4d78-97b4-c5cb35dfb64e",
+        "dateUpdated": 1568373853637
+      },
+      "key": "npc.1"
+    },
+    {
+      "languages": {
+        "en_GB": "&6I am a &evillager&6!",
+        "pt_PT": "&6Sou um &evillager&6!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363191,
+        "id": "8ae98f63-9c92-42b8-b0a1-95c8317812c4",
+        "dateUpdated": 1568373847651
+      },
+      "key": "npc.0"
+    },
+    {
+      "languages": {
+        "en_GB": "&3Pig",
+        "pt_PT": "&3Porco"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363191,
+        "id": "8dd10633-f54f-49c6-b34b-8c865ca06836",
+        "dateUpdated": 1568373865213
+      },
+      "key": "npc.2.title"
+    },
+    {
+      "languages": {
+        "en_GB": "&3Player",
+        "pt_PT": "&3Jogador"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363191,
+        "id": "a72c6158-071f-4721-a36d-970f0ee26e88",
+        "dateUpdated": 1568373867644
+      },
+      "key": "npc.1.title"
+    },
+    {
+      "languages": {
+        "en_GB": "&3Villager",
+        "pt_PT": "&3Aldeão"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363191,
+        "id": "20febe11-5127-416f-9308-0d4f568f3841",
+        "dateUpdated": 1568373870070
+      },
+      "key": "npc.0.title"
+    }
+  ]
+}

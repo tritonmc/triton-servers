@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_GB": "&6This is a item test",
+        "fr_FR": "&6This should be french",
+        "pt_PT": "&6Isto é um pequeno teste de items"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363189,
+        "id": "28c4a1cb-354c-4238-8310-ad229a642df3",
+        "dateUpdated": 1568373850413
+      },
+      "key": "item.test.0"
+    },
+    {
+      "languages": {
+        "en_GB": "&aThis one has a lore!",
+        "pt_PT": "&aEste tem uma descrição!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363189,
+        "id": "8d65b1c6-ee62-4508-bb2c-5c76197095fc",
+        "dateUpdated": 1555850363189,
+        "tags": ["items"]
+      },
+      "key": "item.test.1"
+    },
+    {
+      "languages": {
+        "en_GB": "&5This is the first line of the lore!",
+        "pt_PT": "&5Isto é a primeira linha do lore!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363189,
+        "id": "1b90a7f3-70f2-44a5-ad8f-b4f8c20e59e9",
+        "dateUpdated": 1555850363189,
+        "tags": ["items"]
+      },
+      "key": "item.test.1.lore.0"
+    },
+    {
+      "languages": {
+        "en_GB": "&4This &lline&4 has an %1!",
+        "pt_PT": "&4Esta &llinha&4 tem um %1!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363189,
+        "id": "2a67605d-4685-4632-a14e-48ac1a11e265",
+        "dateUpdated": 1555850363189,
+        "tags": ["items"]
+      },
+      "key": "item.test.1.lore.1"
+    },
+    {
+      "languages": {
+        "en_GB": "&3This is a GUI title!",
+        "pt_PT": "&3Isto é um título de um GUI!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "9cac065d-7a3b-49f7-bbf8-3e368f211239",
+        "dateUpdated": 1555850363190,
+        "tags": ["gui"]
+      },
+      "key": "gui.test"
+    }
+  ]
+}

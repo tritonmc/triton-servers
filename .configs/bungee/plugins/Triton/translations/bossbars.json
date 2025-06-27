@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_GB": "&6This is a bossbar!",
+        "pt_PT": "&6Isto é uma bossbar!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1568216358717,
+        "id": "3ea5c567-a91d-4ed4-a660-207adbf9c08f",
+        "dateUpdated": 1568216638527
+      },
+      "key": "bossbars.test.0"
+    },
+    {
+      "languages": {
+        "en_GB": "&aThis is the second bossbar",
+        "pt_PT": "&aIsto é a segunda bossbar"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1568216519552,
+        "id": "4b1de2f5-c210-458e-8c4d-23fc21c1b1f4",
+        "dateUpdated": 1568216635580
+      },
+      "key": "bossbars.test.1"
+    },
+    {
+      "languages": {
+        "en_GB": "&7Number 3",
+        "pt_PT": "&7Número 3"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1568216553779,
+        "id": "e404feb0-7212-4b2e-a3db-192aab74e272",
+        "dateUpdated": 1568216630556
+      },
+      "key": "bossbars.test.2"
+    },
+    {
+      "languages": {
+        "en_GB": "&eEnglish",
+        "pt_PT": "&ePortuguês"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1568216587167,
+        "id": "17624c9e-d4d6-4806-8508-7a0e976b1eb6",
+        "dateUpdated": 1568216622530
+      },
+      "key": "bossbars.test.3"
+    }
+  ]
+}

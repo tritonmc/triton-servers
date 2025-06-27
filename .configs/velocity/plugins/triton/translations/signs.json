@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": true
+  },
+  "items": [
+    {
+      "locations": [
+        {
+          "server": "lobby",
+          "world": "world",
+          "x": 307,
+          "y": 26,
+          "z": 549,
+          "id": "a290c361-8832-4cfe-ba9c-4855f608ac46"
+        },
+        {
+          "server": "lobby",
+          "world": "world",
+          "x": 306,
+          "y": 26,
+          "z": 549,
+          "id": "128bfc5f-fad7-4ccf-8388-0d6f45333082"
+        },
+        {
+          "server": "lobby",
+          "world": "world",
+          "x": 306,
+          "y": 27,
+          "z": 549,
+          "id": "0cde8363-fa7f-4a6c-bacc-e04eb73b53be"
+        },
+        {
+          "server": "lobby",
+          "world": "world",
+          "x": 307,
+          "y": 27,
+          "z": 549,
+          "id": "939b95c6-485e-4782-bd99-16b8f721cdb6"
+        }
+      ],
+      "type": "sign",
+      "lines": {
+        "en_GB": [
+          "%use_line_default%",
+          "replaced",
+          "%use_line_default%",
+          "%use_line_default%"
+        ],
+        "pt_PT": [
+          "Teste das",
+          "placas :D",
+          "%use_line_default%",
+          "%use_line_default%"
+        ]
+      },
+      "_twin": {
+        "dateCreated": 1573325633584,
+        "id": "bd547eec-68b3-4d1e-879d-84ade17d9973",
+        "dateUpdated": 1573325801793,
+        "tags": ["signs"]
+      },
+      "key": "sign.test.0"
+    },
+    {
+      "languages": {
+        "en_GB": "&aONLINE",
+        "pt_PT": "&aLIGADO"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1573325728210,
+        "id": "2f8db4f3-4394-4495-9de3-9f1987eab001",
+        "dateUpdated": 1573328080077,
+        "tags": ["signs"]
+      },
+      "key": "sign.test.0.line3.online",
+      "patterns": ["^§aONLINE$"]
+    },
+    {
+      "languages": {
+        "en_GB": "%1/%2 players",
+        "pt_PT": "%1/%2 jogadores"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1573325843620,
+        "id": "efba8cf2-6ad3-4b13-82b9-cb74c657ccf6",
+        "dateUpdated": 1573325907743,
+        "tags": ["signs"]
+      },
+      "key": "sign.test.0.line4",
+      "patterns": ["^(\\d+)/(\\d+) players$"]
+    },
+    {
+      "languages": {
+        "en_GB": "&cOFFLINE",
+        "pt_PT": "&cDESLIGADO"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1573325917571,
+        "id": "db30e84b-d433-45f5-8bf0-74763186928e",
+        "dateUpdated": 1573328053109,
+        "tags": ["signs"]
+      },
+      "key": "sign.test.0.line3.offline",
+      "patterns": ["^§cOFFLINE$"]
+    }
+  ]
+}

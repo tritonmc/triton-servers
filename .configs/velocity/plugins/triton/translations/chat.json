@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_GB": "me",
+        "pt_PT": "eu"
+      },
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "4b299e06-a9d2-4905-a1fa-55ab0a809906",
+        "dateUpdated": 1568373889408,
+        "tags": ["external"]
+      },
+      "description": "From FabricSoftner",
+      "type": "text",
+      "key": "chc.me"
+    },
+    {
+      "languages": {
+        "en_GB": "This is a &6simple &achat test!",
+        "pt_PT": "Isto é um &6simples &ateste do chat!"
+      },
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "082b8ed6-2078-4bde-80c5-b0c0d517bd46",
+        "dateUpdated": 1568373892301
+      },
+      "description": "Same as chat.test.0, but without the starting color.",
+      "type": "text",
+      "key": "chat.test.7"
+    },
+    {
+      "languages": {
+        "en_GB": "&aNow it's two! %1&a and %2 %1",
+        "pt_PT": "&aAgora são dois! %1&a e %2 %1"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "fccfa54c-23fa-4c3c-a3bf-0fa604c5b95f",
+        "dateUpdated": 1568373895065
+      },
+      "key": "chat.test.3"
+    },
+    {
+      "languages": {
+        "en_GB": "&aNow it has a %1",
+        "pt_PT": "&aAgora tem um %1"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "d2959306-d3eb-440b-b0f1-cdac77231d88",
+        "dateUpdated": 1568373898351
+      },
+      "key": "chat.test.1"
+    },
+    {
+      "languages": {
+        "en_GB": "&aThis is a &6simple &achat test!",
+        "pt_PT": "&aIsto é um &6simples &ateste do chat!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "79765d04-84f4-4813-a258-31e252bc3044",
+        "dateUpdated": 1568373905489
+      },
+      "key": "chat.test.0"
+    },
+    {
+      "languages": {
+        "en_GB": "nested placeholders",
+        "pt_PT": "placeholders dentro de placeholders"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363191,
+        "id": "68a90bbf-3f04-4470-974d-1f80a0666df5",
+        "dateUpdated": 1568373858769
+      },
+      "key": "chat.test.11.1"
+    },
+    {
+      "languages": {
+        "en_GB": "&aThis tests %1!",
+        "pt_PT": "&aIsto testa %1!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363191,
+        "id": "77f3d751-53f9-4fb6-899a-2d53df58a533",
+        "dateUpdated": 1568373861675
+      },
+      "key": "chat.test.11"
+    }
+  ]
+}

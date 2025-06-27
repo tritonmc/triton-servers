@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_GB": "&aThis is a tab header!",
+        "pt_PT": "&aIsto é o cabeçalho do tab!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "a7785084-1df2-4e5d-961c-349f9964554e",
+        "dateUpdated": 1568373912665
+      },
+      "key": "tab.test.header"
+    },
+    {
+      "languages": {
+        "en_GB": "&6This is a footer!",
+        "pt_PT": "&6Isto é o rodapé!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "9bb0230f-570f-4725-8565-9806f4488128",
+        "dateUpdated": 1568373916784
+      },
+      "key": "tab.test.footer"
+    }
+  ]
+}

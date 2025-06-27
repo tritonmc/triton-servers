@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_GB": "blabla\ntest",
+        "pt_PT": "aaaa\nbbbb"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1581615757675,
+        "id": "ec47ad4c-0802-45b1-9a87-dca18a5f240d",
+        "dateUpdated": 1581615775395
+      },
+      "key": "test"
+    },
+    {
+      "languages": {
+        "en_GB": "test1\ngjsligs",
+        "pt_PT": "452352\ngrsgs\ngesg134"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1581627636093,
+        "id": "cf419c3a-9e7c-492c-8151-31ab1a5ceba4",
+        "dateUpdated": 1581627692697
+      },
+      "key": "test2"
+    },
+    {
+      "languages": {
+        "en_GB": "&7Message issued:",
+        "pt_PT": "&7Hora de envio:"
+      },
+      "type": "text",
+      "_twin": {
+        "archived": true,
+        "dateCreated": 1584197097639,
+        "id": "8c449ba2-045b-49f4-958b-22f67d7c9c03",
+        "dateUpdated": 1584197880489
+      },
+      "key": "chc.time"
+    }
+  ]
+}

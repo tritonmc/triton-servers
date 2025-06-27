@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_GB": "&4You've pressed the wrong button!\n&bJust kidding, it works :D",
+        "pt_PT": "&4Clicaste no botão errado!\n&bSqn, funciona :D"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363191,
+        "id": "ac5cfbe8-5cbc-49ea-8497-87209fe7723d",
+        "dateUpdated": 1568373872435
+      },
+      "key": "kick.test.0"
+    }
+  ]
+}

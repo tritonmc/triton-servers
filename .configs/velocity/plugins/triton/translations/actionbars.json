@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_GB": "&aThis one has a %1 and %2 %1",
+        "pt_PT": "&aEste tem um %1 e %2 %1"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "8265e456-c00e-4a81-adc3-ab1788c4b3f1",
+        "dateUpdated": 1568373875555
+      },
+      "key": "actionbar.test.4"
+    },
+    {
+      "languages": {
+        "en_GB": "&aThis one has a %1",
+        "pt_PT": "&aEsta tem um %1"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "2738e953-80e1-4584-82ca-a787137af818",
+        "dateUpdated": 1568373880772
+      },
+      "key": "actionbar.test.3"
+    },
+    {
+      "languages": {
+        "en_GB": "This one has no color in at all!",
+        "pt_PT": "Esta não tem nenhuma cor!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "d4bcf2b3-3a34-46fb-9800-6a2eee7bb167",
+        "dateUpdated": 1568373878496
+      },
+      "key": "actionbar.test.2"
+    },
+    {
+      "languages": {
+        "en_GB": "&aThis &bone &chas &da &elot &4of &6colors&9!",
+        "pt_PT": "&aEsta &btem &cmuitas &dcores&e!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "561bc3fd-2cd0-4ad1-b9fb-72561c47177e",
+        "dateUpdated": 1568373883135
+      },
+      "key": "actionbar.test.1"
+    },
+    {
+      "languages": {
+        "en_GB": "&aThis is a really simple actionbar!",
+        "pt_PT": "&aIsto é uma actionbar muito simples!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "dee983f8-a5b9-4178-934c-e99cb263e72a",
+        "dateUpdated": 1568373885608
+      },
+      "key": "actionbar.test.0"
+    }
+  ]
+}

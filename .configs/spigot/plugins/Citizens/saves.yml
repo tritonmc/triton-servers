@@ -1,0 +1,136 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+last-created-npc-id: 3
+npc:
+  '3':
+    name: §9Entity name
+    uuid: 5446d956-4b43-4882-ad83-bbe39b8e5cc1
+    traits:
+      type: COW
+      spawned: true
+      location:
+        world: world
+        x: '316.4771'
+        y: '26.0'
+        z: '549.3799'
+        yaw: '0.4'
+        pitch: '0.0'
+        bodyYaw: 0.4
+      age:
+        age: 0
+        locked: true
+      owner:
+        owner: Rexcantor64
+        uuid: 4f30295e-8084-45f7-8f00-48d3c2036c5f
+    traitnames: age,spawned,type,owner,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    name: '[l]npc.2[/l]'
+    uuid: 822696aa-f815-4631-83de-7274863ab9cd
+    traits:
+      type: PIG
+      spawned: true
+      location:
+        world: world
+        x: '318.4771'
+        y: '26.0'
+        z: '549.3799'
+        yaw: '0.4'
+        pitch: '0.0'
+        bodyYaw: 0.4
+      age:
+        age: 0
+        locked: true
+      owner:
+        owner: Rexcantor64
+        uuid: 4f30295e-8084-45f7-8f00-48d3c2036c5f
+    traitnames: age,spawned,type,owner,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    name: '[l]npc.0[/l]'
+    uuid: c9798438-f318-4fcc-87d4-613b0d8ca816
+    traits:
+      type: VILLAGER
+      spawned: true
+      location:
+        world: world
+        x: '320.5138'
+        y: '26.0'
+        z: '549.639'
+        yaw: '-0.1403'
+        pitch: '0.0'
+        bodyYaw: -0.1403
+      age:
+        age: 0
+        locked: true
+      owner:
+        owner: Rexcantor64
+        uuid: 4f30295e-8084-45f7-8f00-48d3c2036c5f
+    traitnames: spawned,age,type,owner,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDcxNDA0OTcwMDUsInByb2ZpbGVJZCI6ImQwY2M1MTE1MzU1YjQ5ZTFhYmRiOTJkYWY3ZjEwMDczIiwicHJvZmlsZU5hbWUiOiJfeEJyYXlhbk9QXyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdjN2I4N2RkY2UyYTdlZmFlNDI5MzQ0MjJmOGZmZmFiNmI1ZmU2MDdlZTUwOGZiMmE2ZWY3ODM3ZWE1ZTczNCIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19
+      cached-skin-uuid-name: _xbrayanop_
+      cached-skin-uuid: d0cc5115-355b-49e1-abdb-92daf7f10073
+      player-skin-name: _xbrayanop_
+      player-skin-signature: UOZFxG63fS9cb5iaZ5JOeK9GH5BsoduGxYRXcC5RUxnWJsmAU9TL2J6crQrYiRp7us3cgXjzUO1UEBtQZYVAqjMR8mf1tEoiQ2iRSCpangRrgpc8LbOwGZ2ZAJfU79s5IBfG0qol8eQlfs+cs0NWDz7xE0Bx7x9k4ULZkyMGyGT5TIjlLWvwLMyVV7V0oN8X4MufnanqXFwhQuqQz3vK5yFrGnk+dAmxatxHShGnW/VO+bDlH80a5SwaaksjMwd8mO/cjeytaGsM+8BMOYkS5A/ffqbff+9CpY5+e4pRDRlWZAPDCpwYorEZIbR6TypoaV2qfisBlF6R6qExrvQJTD4lLgAP25Vhf/OtdezgepLF3pUTp+72n3oCAey6hUA+FajU167McSa2y68iZDt8pHk8kAP79dacDRyCKkMMC9nT3TvqJL9v8PbP3Dq/47YywIhlEzxk0a5NpumXaWN3csOAq3a1i+6+V+BFfEz0304f0v8qfAObRRQBgBCdRu2B4IPqathwK+Af3BQdYaRrzdifJ+7vhgI8RmbRiPCad5TwGV2hNrAyf3h2MjZ4p73vXNBeu5oCeIvNJcJH8BAREv1q6awAXOUP+mV7OM14h5+wjmTTSVh1USWeZVSf7Bdqlec+nQ1gIdlF2RTm0H+3VPACL9kg6qmT2sqiLxUBcnk=
+    name: '[l]npc.1[/l]'
+    uuid: f04cce7a-5998-48bc-95fe-5ee1b2e94d34
+    traits:
+      spawned: true
+      inventory: {}
+      location:
+        world: world
+        x: '322.1949'
+        y: '26.0'
+        z: '549.3'
+        yaw: '0.4562'
+        pitch: '0.0'
+        bodyYaw: 0.4562
+      type: PLAYER
+      gravity:
+        enabled: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: UOZFxG63fS9cb5iaZ5JOeK9GH5BsoduGxYRXcC5RUxnWJsmAU9TL2J6crQrYiRp7us3cgXjzUO1UEBtQZYVAqjMR8mf1tEoiQ2iRSCpangRrgpc8LbOwGZ2ZAJfU79s5IBfG0qol8eQlfs+cs0NWDz7xE0Bx7x9k4ULZkyMGyGT5TIjlLWvwLMyVV7V0oN8X4MufnanqXFwhQuqQz3vK5yFrGnk+dAmxatxHShGnW/VO+bDlH80a5SwaaksjMwd8mO/cjeytaGsM+8BMOYkS5A/ffqbff+9CpY5+e4pRDRlWZAPDCpwYorEZIbR6TypoaV2qfisBlF6R6qExrvQJTD4lLgAP25Vhf/OtdezgepLF3pUTp+72n3oCAey6hUA+FajU167McSa2y68iZDt8pHk8kAP79dacDRyCKkMMC9nT3TvqJL9v8PbP3Dq/47YywIhlEzxk0a5NpumXaWN3csOAq3a1i+6+V+BFfEz0304f0v8qfAObRRQBgBCdRu2B4IPqathwK+Af3BQdYaRrzdifJ+7vhgI8RmbRiPCad5TwGV2hNrAyf3h2MjZ4p73vXNBeu5oCeIvNJcJH8BAREv1q6awAXOUP+mV7OM14h5+wjmTTSVh1USWeZVSf7Bdqlec+nQ1gIdlF2RTm0H+3VPACL9kg6qmT2sqiLxUBcnk=
+        skinName: _xbrayanop_
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NDcxNDA0OTcwMDUsInByb2ZpbGVJZCI6ImQwY2M1MTE1MzU1YjQ5ZTFhYmRiOTJkYWY3ZjEwMDczIiwicHJvZmlsZU5hbWUiOiJfeEJyYXlhbk9QXyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdjN2I4N2RkY2UyYTdlZmFlNDI5MzQ0MjJmOGZmZmFiNmI1ZmU2MDdlZTUwOGZiMmE2ZWY3ODM3ZWE1ZTczNCIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19
+        updateSkins: false
+      owner:
+        owner: Rexcantor64
+        uuid: 4f30295e-8084-45f7-8f00-48d3c2036c5f
+    traitnames: gravity,spawned,type,scoreboardtrait,owner,skintrait,inventory,mounttrait,location,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": true
+  },
+  "items": [
+    {
+      "languages": {
+        "en_GB": "This is a white test!",
+        "pt_PT": "Isto é um teste em branco!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363189,
+        "id": "a1501db4-0263-475b-9de8-37639f7d27b5",
+        "dateUpdated": 1568373843954
+      },
+      "key": "title.test.0"
+    },
+    {
+      "languages": {
+        "en_GB": "This is a subtitle!",
+        "pt_PT": "Isto é um subtítulo!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "0e2f7725-3ad6-4e95-a662-64f9d83c9d0b",
+        "dateUpdated": 1568373920048
+      },
+      "key": "title.sub.test.0"
+    },
+    {
+      "languages": {
+        "en_GB": "&aThis one is green!",
+        "pt_PT": "&aEste é verde!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "5d237938-273e-4dee-a586-3378527c145c",
+        "dateUpdated": 1568373922567
+      },
+      "key": "title.test.1"
+    },
+    {
+      "languages": {
+        "en_GB": "&6And has a gold subtitle!",
+        "pt_PT": "&6E tem um subtítulo dourado!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "f6b735db-3adb-465c-9f7f-80c034b09dcd",
+        "dateUpdated": 1568373925105
+      },
+      "key": "title.sub.test.1"
+    },
+    {
+      "languages": {
+        "en_GB": "shouldn't be white!",
+        "pt_PT": "não devia ser branco!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "4f04e330-ead0-43d4-bc77-bee975301856",
+        "dateUpdated": 1568373927439
+      },
+      "key": "title.test.2"
+    },
+    {
+      "languages": {
+        "en_GB": "&aThis is one placeholder.",
+        "pt_PT": "&aIsto é um placeholder."
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "0920295f-0171-4090-b0a6-b0620412e25e",
+        "dateUpdated": 1568373929721
+      },
+      "key": "title.test.3"
+    },
+    {
+      "languages": {
+        "en_GB": "&6This is another.",
+        "pt_PT": "&6Isto é outro"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "4f904747-0a5b-4b49-9e37-ddd4a3b93db7",
+        "dateUpdated": 1568373932098
+      },
+      "key": "title.test.3a"
+    },
+    {
+      "languages": {
+        "en_GB": "&1This is a subtitle.",
+        "pt_PT": "&1Isto é um subtítulo."
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "9f9b1ef4-7c62-4438-b01f-8ac898aff4c2",
+        "dateUpdated": 1568373934864
+      },
+      "key": "title.sub.test.3"
+    }
+  ]
+}

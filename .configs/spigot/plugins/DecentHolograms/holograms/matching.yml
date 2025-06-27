@@ -1,0 +1,12 @@
+location: world:316.490:29.000:549.300
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&8Translating holograms using regex!'
+    height: 0.3
+  actions: {}

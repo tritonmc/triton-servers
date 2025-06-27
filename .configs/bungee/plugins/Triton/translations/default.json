@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "servers": [],
+    "blacklist": true
+  },
+  "items": [
+    {
+      "locations": [
+        {
+          "server": "lobby",
+          "world": "world",
+          "x": 325,
+          "y": 27,
+          "z": 567,
+          "id": "fe95596d-a266-45ac-b7d9-cb0e13bcf4c0"
+        }
+      ],
+      "type": "sign",
+      "lines": {
+        "en_GB": [
+          "&f================",
+          "&bRemoves",
+          "&brain",
+          "&f================"
+        ],
+        "pt_PT": [
+          "&f================",
+          "&bRemove",
+          "&ba chuva",
+          "&f================"
+        ]
+      },
+      "_twin": {
+        "dateCreated": 1555850363190,
+        "id": "e02fcb02-d711-433d-a57d-79c949aa7b89",
+        "dateUpdated": 1573325718168,
+        "tags": ["meta", "signs"]
+      },
+      "key": "sign.rain.remover"
+    },
+    {
+      "languages": {
+        "en_GB": "&6Translation matched!",
+        "pt_PT": "&6Tradução corresponde!"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1568117168433,
+        "id": "3ae08b39-0429-4dab-ac63-0f5cc9047097",
+        "dateUpdated": 1568199225475,
+        "tags": ["matcher"]
+      },
+      "key": "translation.matches1",
+      "patterns": [
+        "&aThis is something that needs &bto &dbe &1 changed.",
+        "§3But this will ;\\)",
+        "&4Title &9ijrlhiajhlioajnlianjailn",
+        "testgui",
+        "§bThis is an item",
+        "Bossbar 123456",
+        "§8Translating holograms using regex!"
+      ]
+    },
+    {
+      "languages": {
+        "en_GB": "&aTranslation matched with placeholders! %1",
+        "pt_PT": "&aTradução corresponde com placeholders! %1"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1568117168433,
+        "id": "de2e90a9-fe5f-48d3-86b4-06224d1aaed8",
+        "dateUpdated": 1568373837769,
+        "tags": ["matcher"]
+      },
+      "key": "translation.matches2",
+      "patterns": [
+        "&7This is an actionbar with a random value &6(\\d{1,2}) &a woah!",
+        "§5Get a freaking (\\S+)!",
+        "&5Sub title &4ldjgileajghaelhtrsg (\\S+) yay",
+        "&8This is an item lore (\\d{1,3})",
+        "Bossbar with (\\S+) hehehe",
+        "^§9Entity (\\S+)$",
+        "testing matches with a (\\S+)!"
+      ]
+    },
+    {
+      "locations": [
+        {
+          "server": "lobby",
+          "world": "world",
+          "x": 309,
+          "y": 27,
+          "z": 549,
+          "id": "4356c76b-5486-4476-94e4-6821d646848b"
+        },
+        {
+          "server": "lobby",
+          "world": "world",
+          "x": 311,
+          "y": 27,
+          "z": 549,
+          "id": "d22ed182-7d2f-4d6e-9125-be3422accab5"
+        },
+        {
+          "server": "lobby",
+          "world": "world",
+          "x": 310,
+          "y": 27,
+          "z": 549,
+          "id": "ffcfcdde-e408-4e71-9852-05f3e048ab23"
+        }
+      ],
+      "type": "sign",
+      "lines": {
+        "en_GB": [
+          "%use_line_default%",
+          "%use_line_default%",
+          "%use_line_default%",
+          "Test EN"
+        ],
+        "pt_PT": [
+          "%use_line_default%",
+          "%use_line_default%",
+          "%use_line_default%",
+          "Test PT"
+        ]
+      },
+      "_twin": {
+        "dateCreated": 1576356215016,
+        "id": "ad0c2ecc-fc55-4daf-bf81-f8f3684ac4db",
+        "dateUpdated": 1576356345222
+      },
+      "key": "sign.test.bts"
+    },
+    {
+      "locations": [
+        {
+          "server": "lobby",
+          "world": "world",
+          "x": 305,
+          "y": 27,
+          "z": 549,
+          "id": "b8bc0b0d-09a9-4ccd-a5c7-73602db407b7"
+        },
+        {
+          "server": "lobby",
+          "world": "world",
+          "x": 304,
+          "y": 27,
+          "z": 549,
+          "id": "1318593c-6d2c-4f6a-8ab7-151911c14674"
+        }
+      ],
+      "type": "sign",
+      "lines": {
+        "en_GB": ["MM", "%use_line_default%", "§5City", "%use_line_default%"],
+        "pt_PT": ["MM", "%use_line_default%", "§5Cidade", "%use_line_default%"]
+      },
+      "_twin": {
+        "dateCreated": 1576449579929,
+        "id": "d8aa3fb9-96fe-4efe-b0e9-ecd4bf2fc8a0",
+        "dateUpdated": 1576449631480
+      },
+      "key": "sign.test.murder"
+    },
+    {
+      "languages": {
+        "en_GB": "&a%1",
+        "pt_PT": "&a%1"
+      },
+      "type": "text",
+      "_twin": {
+        "dateCreated": 1582220615544,
+        "id": "28619ec2-9a93-462e-b1ba-d7e54438c4df",
+        "dateUpdated": 1582221157432
+      },
+      "key": "minecraft.chest.double",
+      "patterns": ["^(\\uE600container\\.chestDouble\\uE600(.{36})\\uE600)$"]
+    },
+    {
+      "locations": [
+        {
+          "server": "lobby",
+          "world": "world",
+          "x": 320,
+          "y": 27,
+          "z": 569,
+          "id": "14083ba3-a132-4554-943e-157fa4a1a5b4"
+        }
+      ],
+      "type": "sign",
+      "lines": {
+        "en_GB": ["Line 1", "Line2", "Line3", "Line4"],
+        "pt_PT": ["Linha1", "Linha2", "Linha 3", "Linha4"]
+      },
+      "_twin": {
+        "dateCreated": 1587845503280,
+        "id": "cd6b34d6-9c72-4ccb-a80e-7bdab458130c",
+        "dateUpdated": 1587845523872
+      },
+      "key": "test.sign"
+    }
+  ]
+}
