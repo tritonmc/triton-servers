@@ -4,6 +4,7 @@ pkgs.mkShell {
     gradle
     jdk21
     jq
+    xxd
 
     # buildtools
     git
