@@ -13,7 +13,7 @@ plugins["LuckPerms-Bungee"]="luckperms bungee"
 plugins["LuckPerms-Velocity"]="luckperms velocity"
 plugins["PlaceholderAPI"]="hangar PlaceholderAPI PAPER"
 plugins["PlugMan"]="github-latest Test-Account666/PlugManX"
-plugins["ProtocolLib"]="http https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/artifact/build/libs/ProtocolLib.jar"
+plugins["ProtocolLib"]="http https://github.com/dmulloy2/ProtocolLib/releases/download/dev-build/ProtocolLib.jar"
 # TODO: plugins["TritonTestSuite"]
 plugins["ViaBackwards"]="hangar ViaBackwards PAPER"
 plugins["ViaVersion"]="hangar ViaVersion PAPER"
