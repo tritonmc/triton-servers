@@ -28,6 +28,6 @@ bwrap \
   --share-net \
   --die-with-parent \
   -- \
-  java -jar "$PROJ_PATH"/BuildTools.jar --output-dir "$PROJ_DIR" "$@"
+  java -jar "$PROJ_PATH"/BuildTools.jar --output-dir "$PROJ_PATH" "$@"
 
 popd
