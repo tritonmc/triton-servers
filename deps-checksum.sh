@@ -18,6 +18,6 @@ artifact_path=$(echo "$2" | sed "s/\./\//g")
 
 curl -f "https://repo.diogotc.com/mirror/$group_path/$artifact_path/$3/$2-$3.jar" -o "$file"
 
-sha256sum "$file" | xxd -r -p | base64
+sha256sum "$file" | xxd -r -p | base64 -w0
 
 rm "$file"
