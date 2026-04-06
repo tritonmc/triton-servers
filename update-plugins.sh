@@ -12,7 +12,7 @@ plugins["LuckPerms-Bukkit"]="luckperms bukkit"
 plugins["LuckPerms-Bungee"]="luckperms bungee"
 plugins["LuckPerms-Velocity"]="luckperms velocity"
 plugins["PlaceholderAPI"]="hangar PlaceholderAPI PAPER"
-plugins["PlugMan"]="github-latest Test-Account666/PlugManX"
+plugins["PlugMan"]="modrinth plugmanx"
 plugins["ProtocolLib"]="http https://github.com/dmulloy2/ProtocolLib/releases/download/dev-build/ProtocolLib.jar"
 # TODO: plugins["TritonTestSuite"]
 plugins["ViaBackwards"]="hangar ViaBackwards PAPER"
@@ -44,6 +44,11 @@ luckperms() {
 hangar() {
   version=$(curl -fs "https://hangar.papermc.io/api/v1/projects/$1/latestrelease")
   http "https://hangar.papermc.io/api/v1/projects/$1/versions/$version/$2/download" "$3"
+}
+
+modrinth() {
+  file_url=$(curl -fs "https://api.modrinth.com/v2/project/$1/version?" | jq -r '. | map(select (.version_type == "release"))| .[0].files[0].url')
+  http "$file_url" "$2"
 }
 
 http() {
