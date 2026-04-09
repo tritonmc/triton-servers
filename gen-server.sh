@@ -52,13 +52,13 @@ if [[ $server_type == 'spigot' ]] ; then
   echo "Created server at $dir"
 elif [[ $server_type == 'paper' ]] ; then
   version=$(get_paper_io_version "paper")
-  version_minor=$(echo "$version" | awk -F'.' '{print $2}')
+  version_dir=$(echo "$version" | awk -F'.' '{print $1 "_" $2}')
   download_url=$(get_paper_io_download "paper" "$version")
 
   echo 'Creating Paper Server!'
   dir="$INSTANCES_DIR/paper_$timestamp"
 
-  cp -r "$SCRIPT_DIR/.servers/1_${version_minor}" "$dir"
+  cp -r "$SCRIPT_DIR/.servers/${version_dir}" "$dir"
 
   pushd "$dir" >& /dev/null
   curl -Lfs --url "$download_url" -o server.jar

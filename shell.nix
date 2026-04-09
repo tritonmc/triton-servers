@@ -2,7 +2,7 @@
 pkgs.mkShell {
   buildInputs = with pkgs; [
     gradle
-    jdk21
+    jdk25
     jq
     xxd
 
