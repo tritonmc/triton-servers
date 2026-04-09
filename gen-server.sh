@@ -18,14 +18,14 @@ server_type="$(printf "%s\n" "${server_types[@]}" | fzf --prompt="Server type > 
 timestamp=$(date +%Y%m%d%H%M%S)
 
 get_paper_io_version () {
-  version=$(curl -s "https://api.papermc.io/v2/projects/$1" | jq -r '.versions[]' | fzf --tac --no-sort --prompt="Version > ")
+  version=$(curl -s "https://fill.papermc.io/v3/projects/$1" | jq -r '.versions | flatten | reverse | .[]' | fzf --tac --no-sort --prompt="Version > ")
   echo "$version"
 }
 
 get_paper_io_download () {
-  build=$(curl -s "https://api.papermc.io/v2/projects/$1/versions/$2" | jq -r '.builds[]' | fzf --tac --no-sort --prompt="Build > ")
-  download_url=$(curl -s "https://api.papermc.io/v2/projects/$1/versions/$2/builds/$build" | jq -r '.downloads.application.name')
-  echo "https://api.papermc.io/v2/projects/$1/versions/$2/builds/$build/downloads/$download_url"
+  build=$(curl -s "https://fill.papermc.io/v3/projects/$1/versions/$2" | jq -r '.builds | reverse | .[]' | fzf --tac --no-sort --prompt="Build > ")
+  download_url=$(curl -s "https://fill.papermc.io/v3/projects/$1/versions/$2/builds/$build" | jq -r '.downloads."server:default".url')
+  echo "$download_url"
 }
 
 mkdir -p "$INSTANCES_DIR"
