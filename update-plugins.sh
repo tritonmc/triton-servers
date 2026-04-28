@@ -5,6 +5,10 @@ set -e
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 PLUGINS_DIR="$SCRIPT_DIR/.plugins"
 
+if [[ "$1" = "--force" ]]; then
+  force=1
+fi
+
 declare -A plugins
 plugins["Citizens"]="jenkins-http https://ci.citizensnpcs.co/job/Citizens2/lastSuccessfulBuild/ 'Citizens-[^-]+-b[0-9]+\.jar'"
 plugins["DecentHolograms"]="github-latest DecentSoftware-eu/DecentHolograms"
@@ -60,7 +64,7 @@ http() {
 mkdir -p "$PLUGINS_DIR"
 
 for plugin in "${!plugins[@]}"; do
-  if [[ ! -f "$PLUGINS_DIR/$plugin.jar" ]]; then
+  if [[ "$force" || ! -f "$PLUGINS_DIR/$plugin.jar" ]]; then
     echo "Downloading $plugin..."
     opts="${plugins[$plugin]}"
     eval "$opts" "$plugin"
