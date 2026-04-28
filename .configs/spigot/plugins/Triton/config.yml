@@ -72,7 +72,7 @@ behind-proxy: true
 # To access TWIN, you need a special token.
 # To get it, join our Discord server at https://triton.rexcantor64.com/discord or DM me on Spigot.
 # If you've enabled `behind-proxy` above, there is no need to put your token here. You just need it on Triton's config on your proxy.
-twin-token: ""
+twin-token: "$TWIN_TOKEN"
 
 # Triton command aliases.
 # Add or remove aliases here to customize which commands are detected by Triton.
@@ -136,7 +136,7 @@ experimental-async-protocol-lib: true
 # method of interception.
 # When stable, this will be enabled by default.
 # Changing this REQUIRES a server restart.
-experimental-use-packetevents: false
+experimental-use-packetevents: ${PACKET_EVENTS:-false}
 
 # Parser to use when translating messages.
 # If you change this, styles might not be applied correctly to your translations and surrounding text.

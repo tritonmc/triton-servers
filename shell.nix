@@ -5,6 +5,7 @@ pkgs.mkShell {
     jdk25
     jq
     xxd
+    envsubst
 
     # buildtools
     git

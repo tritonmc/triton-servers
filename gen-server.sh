@@ -47,6 +47,7 @@ if [[ $server_type == 'spigot' ]] ; then
   pushd "$dir" >& /dev/null
   ln -s "$target_jar" "server.jar"
   cp -rT "$SCRIPT_DIR"/.configs/spigot .
+  envsubst -i plugins/Triton/config.yml -o plugins/Triton/config.yml
   popd >& /dev/null
 
   echo "Created server at $dir"
@@ -63,6 +64,7 @@ elif [[ $server_type == 'paper' ]] ; then
   pushd "$dir" >& /dev/null
   curl -Lfs --url "$download_url" -o server.jar
   cp -rT "$SCRIPT_DIR"/.configs/spigot .
+  envsubst -i plugins/Triton/config.yml -o plugins/Triton/config.yml
   popd >& /dev/null
 
   echo "Created server at $dir"
@@ -75,6 +77,7 @@ elif [[ $server_type == 'bungee' ]] ; then
   pushd "$dir" >& /dev/null
   curl -Lfs --url https://ci.md-5.net/job/BungeeCord/lastSuccessfulBuild/artifact/bootstrap/target/BungeeCord.jar -o BungeeCord.jar
   cp -rT "$SCRIPT_DIR"/.configs/bungee .
+  envsubst -i plugins/Triton/config.yml -o plugins/Triton/config.yml
   popd >& /dev/null
 
   echo "Created server at $dir"
@@ -90,6 +93,7 @@ elif [[ $server_type == 'waterfall' ]] ; then
   pushd "$dir" >& /dev/null
   curl -Lfs --url "$download_url" -o BungeeCord.jar
   cp -rT "$SCRIPT_DIR"/.configs/bungee .
+  envsubst -i plugins/Triton/config.yml -o plugins/Triton/config.yml
   popd >& /dev/null
 
   echo "Created server at $dir"
@@ -105,6 +109,7 @@ elif [[ $server_type == 'velocity' ]] ; then
   pushd "$dir" >& /dev/null
   curl -Lfs --url "$download_url" -o latest.jar
   cp -rT "$SCRIPT_DIR"/.configs/velocity .
+  envsubst -i plugins/triton/config.yml -o plugins/triton/config.yml
   popd >& /dev/null
 
   echo "Created server at $dir"
