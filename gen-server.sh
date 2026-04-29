@@ -7,6 +7,7 @@ INSTANCES_DIR="$SCRIPT_DIR/instances"
 
 server_types=(
   "bungee"
+  "folia"
   "paper"
   "spigot"
   "velocity"
@@ -58,6 +59,23 @@ elif [[ $server_type == 'paper' ]] ; then
 
   echo 'Creating Paper Server!'
   dir="$INSTANCES_DIR/paper_$timestamp"
+
+  cp -r "$SCRIPT_DIR/.servers/${version_dir}" "$dir"
+
+  pushd "$dir" >& /dev/null
+  curl -Lfs --url "$download_url" -o server.jar
+  cp -rT "$SCRIPT_DIR"/.configs/spigot .
+  envsubst -i plugins/Triton/config.yml -o plugins/Triton/config.yml
+  popd >& /dev/null
+
+  echo "Created server at $dir"
+elif [[ $server_type == 'folia' ]] ; then
+  version=$(get_paper_io_version "folia")
+  version_dir=$(echo "$version" | awk -F'.' '{print $1 "_" $2}')
+  download_url=$(get_paper_io_download "folia" "$version")
+
+  echo 'Creating Folia Server!'
+  dir="$INSTANCES_DIR/folia_$timestamp"
 
   cp -r "$SCRIPT_DIR/.servers/${version_dir}" "$dir"
 
