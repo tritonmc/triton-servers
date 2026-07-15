@@ -18,7 +18,7 @@ plugins["LuckPerms-Velocity"]="luckperms velocity"
 plugins["PlaceholderAPI"]="hangar PlaceholderAPI PAPER"
 plugins["PlugMan"]="modrinth plugmanx"
 plugins["ProtocolLib"]="http https://github.com/dmulloy2/ProtocolLib/releases/download/dev-build/ProtocolLib.jar"
-# TODO: plugins["TritonTestSuite"]
+plugins["TritonTestSuite"]="github-latest tritonmc/test-suite"
 plugins["ViaBackwards"]="hangar ViaBackwards PAPER"
 plugins["ViaVersion"]="hangar ViaVersion PAPER"
 
