@@ -28,7 +28,7 @@ velocity_plugins=(
 )
 
 # Spigot
-for server_dir in "$SCRIPT_DIR"/1_*/; do
+for server_dir in "$SCRIPT_DIR"/1_*/ "$SCRIPT_DIR"/2*/; do
   rm -rf "$server_dir"plugins
   mkdir -p "$server_dir"plugins
   for plugin in "${spigot_plugins[@]}"; do
